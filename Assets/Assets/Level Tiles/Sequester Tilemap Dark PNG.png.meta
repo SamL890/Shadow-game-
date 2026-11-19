@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 30be0de7dda2d864c87f4326318f6926
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6377100094370454506
+    second: Sequester Tilemap Dark PNG_0
+  - first:
+      213: -7776866193004938526
+    second: Sequester Tilemap Dark PNG_1
+  - first:
+      213: 5685474697890329723
+    second: Sequester Tilemap Dark PNG_2
+  - first:
+      213: -8489525089956131803
+    second: Sequester Tilemap Dark PNG_3
+  - first:
+      213: -2753595062751508590
+    second: Sequester Tilemap Dark PNG_4
+  - first:
+      213: 8405358025672975085
+    second: Sequester Tilemap Dark PNG_5
+  - first:
+      213: -6088167158430690402
+    second: Sequester Tilemap Dark PNG_6
+  - first:
+      213: 9118123760582046081
+    second: Sequester Tilemap Dark PNG_7
+  - first:
+      213: -2415178791448656651
+    second: Sequester Tilemap Dark PNG_8
+  - first:
+      213: -7622608346684780051
+    second: Sequester Tilemap Dark PNG_9
+  - first:
+      213: -8858530671346031953
+    second: Sequester Tilemap Dark PNG_10
+  - first:
+      213: 2831564968835256126
+    second: Sequester Tilemap Dark PNG_11
+  - first:
+      213: -3809103640966860914
+    second: Sequester Tilemap Dark PNG_12
+  - first:
+      213: -3828103672035501608
+    second: Sequester Tilemap Dark PNG_13
+  - first:
+      213: -6325182350312653483
+    second: Sequester Tilemap Dark PNG_14
+  - first:
+      213: -6414521194206699839
+    second: Sequester Tilemap Dark PNG_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 876
+        width: 650
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61460f1604dff77a0800000000000000
+      internalID: -6377100094370454506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_1
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1308
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea323ca665031490800000000000000
+      internalID: -7776866193004938526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_2
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1312
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7479336d1dd6ee40800000000000000
+      internalID: 5685474697890329723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_3
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 876
+        width: 218
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c066df8e52f2a80800000000000000
+      internalID: -8489525089956131803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_4
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1010
+        width: 215
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2974d6d21e349c9d0800000000000000
+      internalID: -2753595062751508590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_5
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1010
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de267324794d5a470800000000000000
+      internalID: 8405358025672975085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 120
+        width: 650
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e931a84d93c728ba0800000000000000
+      internalID: -6088167158430690402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_7
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 432
+        width: 432
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181ba8710451a8e70800000000000000
+      internalID: 9118123760582046081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_8
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 681
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f445a27faf8b7ed0800000000000000
+      internalID: -2415178791448656651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_9
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 681
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de11de1581e073690800000000000000
+      internalID: -7622608346684780051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_10
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 527
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa26486f94d201580800000000000000
+      internalID: -8858530671346031953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_11
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 543
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f8ddd365dbb4720800000000000000
+      internalID: 2831564968835256126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_12
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 324
+        width: 218
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fe5878b68532bc0800000000000000
+      internalID: -3809103640966860914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_13
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 162
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d994f01ef7dfdac0800000000000000
+      internalID: -3828103672035501608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 162
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d3b062a207838a0800000000000000
+      internalID: -6325182350312653483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sequester Tilemap Dark PNG_15
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 39
+        width: 218
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce581f95fa0bf6a0800000000000000
+      internalID: -6414521194206699839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sequester Tilemap Dark PNG_0: -6377100094370454506
+      Sequester Tilemap Dark PNG_1: -7776866193004938526
+      Sequester Tilemap Dark PNG_10: -8858530671346031953
+      Sequester Tilemap Dark PNG_11: 2831564968835256126
+      Sequester Tilemap Dark PNG_12: -3809103640966860914
+      Sequester Tilemap Dark PNG_13: -3828103672035501608
+      Sequester Tilemap Dark PNG_14: -6325182350312653483
+      Sequester Tilemap Dark PNG_15: -6414521194206699839
+      Sequester Tilemap Dark PNG_2: 5685474697890329723
+      Sequester Tilemap Dark PNG_3: -8489525089956131803
+      Sequester Tilemap Dark PNG_4: -2753595062751508590
+      Sequester Tilemap Dark PNG_5: 8405358025672975085
+      Sequester Tilemap Dark PNG_6: -6088167158430690402
+      Sequester Tilemap Dark PNG_7: 9118123760582046081
+      Sequester Tilemap Dark PNG_8: -2415178791448656651
+      Sequester Tilemap Dark PNG_9: -7622608346684780051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

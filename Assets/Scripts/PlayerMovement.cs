@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,12 +8,18 @@ public class PlayerMovement : MonoBehaviour
 {
     public static Dictionary<string, Vector3> pos = new();
 
+    [Header("Player Objects")]
+    public Rigidbody2D rb;
+    public SpriteRenderer spriteRenderer;
+
+    [Header("Movement Settings")]
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
-    public Rigidbody2D rb;
     public bool isGrounded;
 
-    public SpriteRenderer spriteRenderer;
+    [Header("Screen Switch Settings")]
+    public bool justSwitched = false;
+    public float switchCooldown = 1f;
 
     private float moveInput;
 
@@ -33,17 +40,17 @@ public class PlayerMovement : MonoBehaviour
         pos[scene.name] = transform.position;
     }
 
-    public void OnMove(InputAction.CallbackContext ctx)
+    public void OnMove(InputAction.CallbackContext ctx) // Move Method
     {
-        moveInput = ctx.ReadValue<Vector2>().x;
+        moveInput = ctx.ReadValue<Vector2>().x; // Get the current direction the player is moving, Ex: Pressing Left would return -1, while pressing right would return 1
 
-        if (moveInput > 0)
+        if (moveInput > 0) // Flip Sprite if facing a certain direction
             spriteRenderer.flipX = false;
         else if (moveInput < 0)
             spriteRenderer.flipX = true;
     }
 
-    public void OnJump(InputAction.CallbackContext ctx)
+    public void OnJump(InputAction.CallbackContext ctx) // Jump Method
     {
         if (ctx.performed && isGrounded)
         {
@@ -54,11 +61,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (justSwitched == true)
+        {
+            StartCoroutine(switchCool());
+        }
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isGrounded = true;
+    }
+
+    IEnumerator switchCool()
+    {
+    yield return new WaitForSeconds(switchCooldown);
+    justSwitched = false;
     }
 }

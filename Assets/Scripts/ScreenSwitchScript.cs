@@ -3,22 +3,20 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 using Unity.VisualScripting;
 
-public class screeanswic1jh : MonoBehaviour
+public class ScreenSwitchScript : MonoBehaviour
 {
     [Header("Scene Settings")]
-    public string test = "scene2";
+    public string switchTo = "";
+    public PlayerMovement pM;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-   public void OnSwitchScene(InputAction.CallbackContext context)
+    public void OnSwitchScene(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
-            SceneManager.LoadScene(test);
+            pM.justSwitched = true;
+            SceneManager.LoadScene(switchTo);
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
