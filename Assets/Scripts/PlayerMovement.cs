@@ -1,8 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static Dictionary<string, Vector3> pos = new();
+
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Rigidbody2D rb;
@@ -15,6 +19,18 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        Scene scene = SceneManager.GetActiveScene();
+        if (pos.TryGetValue(scene.name, out Vector3 position))
+        {
+            transform.position = position;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        pos[scene.name] = transform.position;
     }
 
     public void OnMove(InputAction.CallbackContext ctx)
