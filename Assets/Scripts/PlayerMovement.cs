@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,9 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 10f;
     public bool isGrounded;
 
-    [Header("Screen Switch Settings")]
-    public bool justSwitched = false;
-    public float switchCooldown = 1f;
+    //[Header("Debug Mode")] // Debug stuffs
 
     private float moveInput;
 
@@ -61,21 +58,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (justSwitched == true)
-        {
-            StartCoroutine(switchCool());
-        }
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isGrounded = true;
-    }
-
-    IEnumerator switchCool()
-    {
-    yield return new WaitForSeconds(switchCooldown);
-    justSwitched = false;
     }
 }

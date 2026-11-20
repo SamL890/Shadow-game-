@@ -1,22 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
-using Unity.VisualScripting;
+using NaughtyAttributes;
 
 public class ScreenSwitchScript : MonoBehaviour
 {
     [Header("Scene Settings")]
-    public string switchTo = "";
-    public PlayerMovement pM;
+    [Scene] public string switchTo;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void OnSwitchScene(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && ScreenSwitchValueScript.CanSwitch)
         {
-            pM.justSwitched = true;
             SceneManager.LoadScene(switchTo);
         }
     }
-
 }
