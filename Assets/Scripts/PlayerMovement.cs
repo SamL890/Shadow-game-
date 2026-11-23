@@ -15,9 +15,6 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public bool isGrounded;
-
-    //[Header("Debug Mode")] // Debug stuffs
-
     private float moveInput;
 
     void Awake()
@@ -56,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate() // Movement
     {
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
