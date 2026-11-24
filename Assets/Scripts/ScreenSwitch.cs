@@ -8,19 +8,11 @@ public class ScreenSwitch : MonoBehaviour
     [Header("Scene Settings")]
     [Scene] public string switchTo;
 
-
     public void OnSwitchScene(InputAction.CallbackContext context)
     {
         if (context.performed && ScreenSwitchValues.canSwitch)
         {
-            if (!ScreenSwitchValues.switchDebug) FadeTransition();
             SceneManager.LoadScene(switchTo);
         }
-    }
-
-    async void FadeTransition()
-    {
-        await SwitchFade.Instance.fadeOut();
-        await SwitchFade.Instance.fadeIn();
     }
 }

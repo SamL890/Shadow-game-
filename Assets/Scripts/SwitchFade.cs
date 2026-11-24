@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SwitchFade : MonoBehaviour
@@ -7,7 +8,12 @@ public class SwitchFade : MonoBehaviour
     [SerializeField] CanvasGroup canGroup;
     [SerializeField] float fadeDur = 0.5f;
     public static SwitchFade Instance;
+    public ScreenSwitchValues sC;
 
+    void FixedUpdate()
+    {
+        if (sC.canFadeIn == true) fadeIn();
+    }
 
     async Task Fade(float targetTrans)
     {
@@ -20,8 +26,6 @@ public class SwitchFade : MonoBehaviour
         }
         canGroup.alpha = targetTrans;
     }
-
-    public async Task fadeOut() => await Fade(1); // Change Target trans to 1
     public async Task fadeIn() => await Fade(0); // Change Target trans to 2
 
 }
